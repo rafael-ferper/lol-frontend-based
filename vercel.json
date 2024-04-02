@@ -1,0 +1,16 @@
+{
+    "version": 1,
+    "builds": [
+      {
+        "src": "lol-frontend-based/src/index.html",
+        "use": "@vercel/static"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/lol-frontend-based/src/index.html"
+      }
+    ]
+  }
+  
