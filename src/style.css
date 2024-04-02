@@ -19,6 +19,7 @@ body {
   position: relative;
   overflow: hidden;
 }
+
 .timeline-carousel:after,
 .timeline-carousel:before {
   content: "";
@@ -31,36 +32,45 @@ body {
   z-index: 3;
   width: 6.9444%;
 }
+
 .timeline-carousel:after {
   left: 0;
 }
+
 .timeline-carousel:before {
   right: 0;
   opacity: 0;
 }
+
 .timeline-carousel .slick-list {
   overflow: visible;
 }
+
 .timeline-carousel .slick-dots {
   bottom: -73px;
 }
+
 .timeline-carousel h1 {
   color: white;
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
 }
+
 .timeline-carousel p {
   color: white;
   font-weight: 300;
 }
+
 .timeline-carousel__image {
   padding-right: 30px;
 }
+
 .timeline-carousel__item {
   cursor: grab;
   cursor: -moz-grab;
   cursor: -webkit-grab;
 }
+
 .timeline-carousel__item .media-wrapper {
   opacity: 0.4;
   padding-bottom: 71.4%;
@@ -68,13 +78,16 @@ body {
   -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
+
 .timeline-carousel__item:last-child .timeline-carousel__item-inner:after {
   width: calc(100% - 30px);
 }
+
 .timeline-carousel__item-inner {
   position: relative;
   padding-top: 35px;
 }
+
 .timeline-carousel__item-inner:after {
   position: absolute;
   width: 100%;
@@ -83,6 +96,7 @@ body {
   content: "";
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 .timeline-carousel__item-inner .name {
   font-family: "Libre Franklin", sans-serif;
   font-size: 36px;
@@ -97,6 +111,7 @@ body {
   margin: -15px 0 20px;
   font-weight: 700;
 }
+
 .timeline-carousel__item-inner .name:after {
   content: "";
   position: absolute;
@@ -108,6 +123,7 @@ body {
   background-color: #323232;
   z-index: 3;
 }
+
 .timeline-carousel__item-inner .role {
   font-family: "Libre Franklin", sans-serif;
   font-size: 12px;
@@ -117,6 +133,7 @@ body {
   margin-bottom: 10px;
   font-weight: 600;
 }
+
 .timeline-carousel__item-inner p {
   font-size: 12px;
   line-height: 18px;
@@ -125,6 +142,7 @@ body {
   font-weight: 400;
   margin-bottom: 15px;
 }
+
 .timeline-carousel__item-inner .read-more {
   font-size: 12px;
   color: #ffc107;
@@ -134,6 +152,7 @@ body {
   text-decoration: none;
   position: relative;
 }
+
 .timeline-carousel__item-inner .read-more:after {
   content: "";
   position: absolute;
@@ -145,20 +164,24 @@ body {
   -o-transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   transition: all 0.2s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
+
 .timeline-carousel__item-inner .read-more:hover:after {
   width: 100%;
 }
+
 .timeline-carousel__item-inner .pointer {
   height: 29px;
   position: relative;
   z-index: 1;
   margin: -4px 0 16px;
 }
+
 .timeline-carousel__item-inner .pointer:after,
 .timeline-carousel__item-inner .pointer:before {
   position: absolute;
   content: "";
 }
+
 .timeline-carousel__item-inner .pointer:after {
   width: 9px;
   height: 9px;
@@ -167,6 +190,7 @@ body {
   left: 0;
   background-color: #ffc107;
 }
+
 .timeline-carousel__item-inner .pointer:before {
   width: 1px;
   height: 100%;
@@ -192,6 +216,7 @@ body {
   text-align: center;
   z-index: 2;
 }
+
 .slick-dots li {
   cursor: grab;
   cursor: -moz-grab;
@@ -202,13 +227,16 @@ body {
   width: 10px;
   height: 10px;
 }
+
 .slick-dots li:last-child {
   margin-right: 0;
 }
+
 .slick-dots li.slick-active button {
   background: #ffc107;
   border-color: #ffc107;
 }
+
 .slick-dots li button {
   display: block;
   font-size: 0;
@@ -222,6 +250,7 @@ body {
   -o-transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
   transition: all 0.4s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
+
 .slick-dots li button:hover {
   background: #ffc107;
   border-color: #ffc107;
@@ -234,12 +263,14 @@ body {
   padding: 20px;
   z-index: 9999;
 }
+
 .link a {
   display: flex;
   align-items: center;
   text-decoration: none;
   color: #fff;
 }
+
 .link .fa {
   font-size: 28px;
   margin-right: 8px;
@@ -252,6 +283,7 @@ body {
   width: 18px;
   padding-bottom: 2px;
 }
+
 .slick-prev .btn,
 .slick-next .btn {
   border-radius: 0;
